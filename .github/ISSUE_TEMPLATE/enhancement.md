@@ -1,6 +1,6 @@
 ---
-name: Enhancement
-about: Enhancement Stories
+name: ✨ Enhancement
+about: Internal codebase improvements
 title: '[ENHANCEMENT]'
 labels: 'enhancement'
 assignees: ''

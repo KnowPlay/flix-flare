@@ -1,6 +1,6 @@
 ---
-name: Technical Debt
-about: Technical Debt Stories
+name: 🛠️ Technical Debt
+about: Refactoring, code improvements, and handling technical debt.
 title: '[TECHNICAL DEBT]'
 labels: 'technical debt'
 assignees: ''

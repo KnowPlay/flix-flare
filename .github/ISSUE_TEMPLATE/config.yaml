@@ -1,6 +1,6 @@
 version: 2
 issues:
-  - name: Technical Debt
+  - name: 🛠️ Technical Debt
     description: Address technical debt to improve code maintainability and performance
     title: "[TECHNICAL DEBT] "
     labels: ["technical debt"]
@@ -22,9 +22,9 @@ issues:
             - [ ] Task 1
             - [ ] Task 2
             - [ ] Task 3
-  - name: Chores
+  - name: 🧹 Chores
     description: Routine maintenance tasks
-    title: "Chore: "
+    title: "[CHORES] "
     labels: ["chores"]
     assignees:
     - ''
@@ -44,9 +44,9 @@ issues:
             - [ ] Task 1
             - [ ] Task 2
             - [ ] Task 3
-  - name: Enhancement
+  - name: ✨ Enhancement
     description: Improve existing functionalities
-    title: "Enhancement: "
+    title: "[ENHANCEMENT] "
     labels: ["enhancement"]
     assignees:
     - ''
@@ -66,9 +66,9 @@ issues:
             - [ ] Task 1
             - [ ] Task 2
             - [ ] Task 3
-  - name: User Stories
-    description: Derive insights from data
-    title: "Feature: "
+  - name: 🎨 Feature
+    description: Derive insights from data and/or create user-facing functionalities
+    title: "[FEATURE] "
     labels: ["feature"]
     assignees:
     - ''
@@ -76,15 +76,55 @@ issues:
       - type: markdown
         attributes:
           value: |
-            **As an** analyst  
-            **I need** to derive insights from data  
-            **So that** we can make informed business decisions  
+            **As an** analyst and/or developer  
+            **I need** to derive insights from data and/or to create user-facing functionalities  
+            **So that** we can improve user experience and/or make informed business decisions  
 
             **Assumptions:** 
-            * Data is available and accessible.
-            * Analytical tools are set up and ready to use.
+            * Error free foundation.
 
             **Acceptance Criteria:**
             - [ ] Task 1
             - [ ] Task 2
             - [ ] Task 3
+  - name: 🐞 Bug
+    description: File a bug/issue
+    title: "[BUG] "
+    labels: ["bug", "needs triage"]
+    assignees:
+    - ''
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            <!--
+            Note: Please search to see if an issue already exists for the bug you encountered.
+            -->
+
+            ### Current Behavior:
+            <!-- A concise description of what you're experiencing. -->
+
+            ### Expected Behavior:
+            <!-- A concise description of what you expected to happen. -->
+
+            ### Steps To Reproduce:
+            <!--
+            Example: steps to reproduce the behavior:
+            1. In this environment...
+            1. With this config...
+            1. Run '...'
+            1. See error...
+            -->
+
+            ### Environment:
+            <!--
+            Example:
+            - OS: Ubuntu 20.04
+            - Node: 13.14.0
+            - npm: 7.6.3
+            -->
+
+            ### Anything else:
+            <!--
+            Links? References? Anything that will give us more context about the issue that you are encountering!
+            -->

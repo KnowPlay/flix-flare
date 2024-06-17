@@ -1,6 +1,6 @@
 ---
-name: Chores
-about: Chores
+name: 🧹Chores
+about: Routine maintenance tasks, setup activities, and non-functional requirements
 title: '[CHORES]'
 labels: 'chores'
 assignees: ''
