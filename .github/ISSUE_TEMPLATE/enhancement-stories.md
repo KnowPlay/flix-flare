@@ -1,13 +1,13 @@
 ---
-name: Developer
-about: Feature Request
-title: '[FEATURE] <Enhancement>'
+name: Enhancement
+about: Enhancement Stories
+title: '[ENHANCEMENT]'
 labels: 'enhancement'
 assignees: ''
 
 ---
 
-**As a** developer  
+**As a** analyst and/or developer 
 **I need** to enhance existing functionalities  
 **So that** the system performs better and offers improved features  
 
@@ -16,6 +16,6 @@ assignees: ''
 * Clear criteria for improvement are established.
 
 **Acceptance Criteria:**
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3

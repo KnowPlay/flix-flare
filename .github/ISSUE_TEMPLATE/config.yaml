@@ -1,34 +1,27 @@
 version: 2
 issues:
-  - name: Bug Report
-    description: Create a report to help us improve
-    title: "[BUG]: "
-    labels: ["bug"]
+  - name: Technical Debt
+    description: Address technical debt to improve code maintainability and performance
+    title: "[TECHNICAL DEBT] "
+    labels: ["technical debt"]
     assignees:
     - ''
     body:
       - type: markdown
         attributes:
           value: |
-            **As a** user  
-            **I need** to report a bug  
-            **So that** it can be fixed and the system works correctly  
+            **As a** developer  
+            **I need** to address technical debt  
+            **So that** the codebase is maintainable and performs efficiently  
 
             **Assumptions:** 
-            * The bug is reproducible.
-            * Steps to reproduce are clearly defined.
+            * Technical debt areas are identified.
+            * There is agreement on the best approach to address them.
 
             **Acceptance Criteria:**
-            ```
-            Given the current system state
-            When the bug is reproduced
-            Then the system should handle it as expected
-            ```
-
-            **Steps to Reproduce:**
-            1. ...
-            2. ...
-            3. ...
+            - [ ] Task 1
+            - [ ] Task 2
+            - [ ] Task 3
   - name: Chores
     description: Routine maintenance tasks
     title: "Chore: "
@@ -48,12 +41,10 @@ issues:
             * Necessary tools and resources are available.
 
             **Acceptance Criteria:**
-            ```
-            Given the project requirements
-            When routine maintenance tasks are performed
-            Then the project should remain functional and up to date
-            ```
-  - name: Enhancement Stories
+            - [ ] Task 1
+            - [ ] Task 2
+            - [ ] Task 3
+  - name: Enhancement
     description: Improve existing functionalities
     title: "Enhancement: "
     labels: ["enhancement"]
@@ -72,35 +63,9 @@ issues:
             * Clear criteria for improvement are established.
 
             **Acceptance Criteria:**
-            ```
-            Given the current functionalities
-            When I enhance the system
-            Then it should perform better and offer improved features
-            ```
-  - name: Technical Debt Stories
-    description: Address technical debt
-    title: "Technical Debt: "
-    labels: ["technical debt"]
-    assignees:
-    - ''
-    body:
-      - type: markdown
-        attributes:
-          value: |
-            **As a** developer  
-            **I need** to address technical debt  
-            **So that** the codebase is maintainable and performs efficiently  
-
-            **Assumptions:** 
-            * Technical debt areas are identified.
-            * There is agreement on the best approach to address them.
-
-            **Acceptance Criteria:**
-            ```
-            Given the current codebase
-            When I address technical debt issues
-            Then the codebase should be more maintainable and perform efficiently
-            ```
+            - [ ] Task 1
+            - [ ] Task 2
+            - [ ] Task 3
   - name: User Stories
     description: Derive insights from data
     title: "Feature: "
@@ -120,8 +85,6 @@ issues:
             * Analytical tools are set up and ready to use.
 
             **Acceptance Criteria:**
-            ```
-            Given the available data
-            When I analyze it
-            Then I should be able to derive actionable insights
-            ```
+            - [ ] Task 1
+            - [ ] Task 2
+            - [ ] Task 3
