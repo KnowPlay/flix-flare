@@ -1,0 +1,127 @@
+version: 2
+issues:
+  - name: Bug Report
+    description: Create a report to help us improve
+    title: "[BUG]: "
+    labels: ["bug"]
+    assignees:
+    - ''
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            **As a** user  
+            **I need** to report a bug  
+            **So that** it can be fixed and the system works correctly  
+
+            **Assumptions:** 
+            * The bug is reproducible.
+            * Steps to reproduce are clearly defined.
+
+            **Acceptance Criteria:**
+            ```
+            Given the current system state
+            When the bug is reproduced
+            Then the system should handle it as expected
+            ```
+
+            **Steps to Reproduce:**
+            1. ...
+            2. ...
+            3. ...
+  - name: Chores
+    description: Routine maintenance tasks
+    title: "Chore: "
+    labels: ["chores"]
+    assignees:
+    - ''
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            **As a** manager  
+            **I need** to oversee routine maintenance tasks  
+            **So that** the project remains functional and up to date  
+
+            **Assumptions:** 
+            * Routine tasks are clearly defined.
+            * Necessary tools and resources are available.
+
+            **Acceptance Criteria:**
+            ```
+            Given the project requirements
+            When routine maintenance tasks are performed
+            Then the project should remain functional and up to date
+            ```
+  - name: Enhancement Stories
+    description: Improve existing functionalities
+    title: "Enhancement: "
+    labels: ["enhancement"]
+    assignees:
+    - ''
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            **As a** developer  
+            **I need** to enhance existing functionalities  
+            **So that** the system performs better and offers improved features  
+
+            **Assumptions:** 
+            * Existing functionalities are identified for enhancement.
+            * Clear criteria for improvement are established.
+
+            **Acceptance Criteria:**
+            ```
+            Given the current functionalities
+            When I enhance the system
+            Then it should perform better and offer improved features
+            ```
+  - name: Technical Debt Stories
+    description: Address technical debt
+    title: "Technical Debt: "
+    labels: ["technical debt"]
+    assignees:
+    - ''
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            **As a** developer  
+            **I need** to address technical debt  
+            **So that** the codebase is maintainable and performs efficiently  
+
+            **Assumptions:** 
+            * Technical debt areas are identified.
+            * There is agreement on the best approach to address them.
+
+            **Acceptance Criteria:**
+            ```
+            Given the current codebase
+            When I address technical debt issues
+            Then the codebase should be more maintainable and perform efficiently
+            ```
+  - name: User Stories
+    description: Derive insights from data
+    title: "Feature: "
+    labels: ["feature"]
+    assignees:
+    - ''
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            **As an** analyst  
+            **I need** to derive insights from data  
+            **So that** we can make informed business decisions  
+
+            **Assumptions:** 
+            * Data is available and accessible.
+            * Analytical tools are set up and ready to use.
+
+            **Acceptance Criteria:**
+            ```
+            Given the available data
+            When I analyze it
+            Then I should be able to derive actionable insights
+            ```
