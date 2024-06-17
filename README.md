@@ -1,6 +1,6 @@
 <!-- PROJECT SUMMARY -->
 <div align="center">
-  <h1 align="center">Project Title</h1>
+  <h1 align="center">Flix Flare</h1>
 
   <p align="center">
     {}
