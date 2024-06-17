@@ -1,6 +1,6 @@
 ---
 name: Developer
-about: Enhancement Stories
+about: Feature Request
 title: ''
 labels: 'enhancement'
 assignees: ''

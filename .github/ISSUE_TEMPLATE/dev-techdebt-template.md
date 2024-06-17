@@ -1,6 +1,6 @@
 ---
 name: Developer
-about: Technical Debt Stories
+about: Chores
 title: ''
 labels: 'technical debt'
 assignees: ''
