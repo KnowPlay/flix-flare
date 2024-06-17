@@ -1,7 +1,7 @@
 ---
 name: Developer
 about: Feature Request
-title: ''
+title: '[FEATURE REQUEST] <Enhancement>'
 labels: 'enhancement'
 assignees: ''
 

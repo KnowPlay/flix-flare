@@ -1,7 +1,7 @@
 ---
 name: Project Manager
 about: Chores
-title: ''
+title: '[CHORES] <Chores>'
 labels: 'chores'
 assignees: ''
 

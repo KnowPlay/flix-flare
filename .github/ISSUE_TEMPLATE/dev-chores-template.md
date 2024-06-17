@@ -1,7 +1,7 @@
 ---
 name: Developer
 about: Chores
-title: ''
+title: '[CHORES] <Technical Debt>'
 labels: 'technical debt'
 assignees: ''
 

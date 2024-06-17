@@ -1,7 +1,7 @@
 ---
 name: Analyst
 about: User Stories
-title: ''
+title: '[USER STORIES] <User Stories>'
 labels: 'feature'
 assignees: ''
 
