@@ -1,6 +1,6 @@
 ---
 name: 🚀 Deployment
-about: Deployment Stories
+about: Deployment an app so it's accessible and functional.
 title: '[DEPLOYMENT]'
 labels: 'deployment'
 assignees: ''

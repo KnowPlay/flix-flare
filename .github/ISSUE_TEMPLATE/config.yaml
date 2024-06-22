@@ -149,7 +149,7 @@ issues:
             - [ ] Document setup instructions, virtual environment setup, package installation, and script execution
             - [ ] Add detailed when necessary
   - name: 🚀 Deployment
-    description: Deploy application.
+    description: Deployment an app so it's accessible and functional.
     title: "[DEPLOYMENT] "
     labels: ["deployment"]
     assignees:
