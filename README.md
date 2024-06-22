@@ -54,27 +54,27 @@
 
 #### :heavy_plus_sign: Development Tools
 
-- [ ] **Python**: Main
-- [ ] **VSCode**: IDE
+- [x] Python
+- [x] Jupyter
+- [x] VSCode
 
 #### :heavy_plus_sign: Backend
 
-- [ ] **Pandas**: Data wrangling and analysis library
-- [ ] **NumPy**: Library for numerical computing
-- [ ] **Scikit-learn**: Machine learning library for building recommendation models
+- [x] **Pandas**: Data wrangling and analysis library
+- [x] **NumPy**: Library for numerical computing
+- [x] **Scikit-learn**: Machine learning library for building recommendation models
 
 #### :heavy_plus_sign: Frontend
 
-- [ ] **Matplotlib & Seaborn**: Libraries for data visualization
-- [ ] **Streamlit**: Framework for building interactive web applications
+- [x] **Matplotlib & Seaborn**: Libraries for visualization
+- [ ] **Streamlit**: Deployment
 
 #### :heavy_plus_sign: DevOps
 
 - [ ] CI
   - [ ] Set up GitHub Actions for automated testing
   - [ ] Ensure that all tests pass before merging to the main branch
-- [ ] CD 
-  - [ ] Automate deployment
+- [ ] Deploy
 
 ### :mushroom: Features
 
@@ -96,12 +96,44 @@
 
 ### :honey_pot: Setup
 <!-- Add setup instructions here -->
+#### :heavy_plus_sign: Env 
+
+```sh 
+python3 -m venv .venv
+# `.\.venv\Scripts\activate` on windows
+source .venv/bin/activate #deactivate when needed
+```
+
+#### :heavy_plus_sign: Dependencies
+
+##### Main
+
+- ipynb
+```
+%pip install numpy pandas scikit-learn matplotlib seaborn
+```
+- requirements.txt
+```txt
+streamlit==1.10.0
+jupyter
+```
+
+##### Misc
+
+```
+pip install -U ipykernel
+```
 
 ### :apple: Development
 <!-- Add development details here -->
-* []()
-* []()
-* []()
+* 
+* 
+* 
+
+### :mag_right: TS
+* numpy issues
+  * `pip install --upgrade pip six setuptools wheel`
+
 
 <!-- CONTRIBUTING -->
 ## :ear_of_rice: Contributing
